@@ -1,0 +1,24 @@
+section h2{
+    border-bottom: 5px solid rgb(173, 171, 171);
+}
+article h3{
+    border-top: 2px solid rgb(173, 171, 171);
+    text-align: right;
+    font-size: 17px;
+}
+.no_line h3{
+    border-top: none;
+}
+section img{
+    width: 100%;
+}
+section .sub-topic{
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: disc;
+    padding-left: 70px;
+    margin: 10px;
+}
+ul p{
+    padding-left: 20px;
+}

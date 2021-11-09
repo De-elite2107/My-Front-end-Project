@@ -1,0 +1,38 @@
+section h2{
+    border-bottom: 5px solid rgb(173, 171, 171);
+}
+article h3{
+    border-top: 2px solid rgb(173, 171, 171);
+    text-align: right;
+}
+.no_line h3{
+    border-top: none;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: calc(7px + 0.5vw);
+    text-align: justify;
+}
+p span{
+    font-size: calc(11px + 0.5vw);
+    display: block;
+}
+table{
+    width: 100%;
+}
+tr{
+    font-size: calc(7px + 0.5vw);
+}
+tr td:first-child{
+    text-align: right;
+    width: 40%;
+}
+tr td:nth-child(2){
+    text-align: left;
+}
+td span{
+    color: red;
+}
+td input{
+    width: 300px;
+}

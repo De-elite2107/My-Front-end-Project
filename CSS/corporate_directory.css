@@ -1,0 +1,36 @@
+section h2{
+    border-bottom: 5px solid rgb(173, 171, 171);
+    width: 80%;
+}
+article h3{
+    border-top: 2px solid rgb(173, 171, 171);
+    text-align: right;
+}
+.no_line h3{
+    border-top: none;
+}
+table{
+    width: 80%;
+}
+th, td{
+    font-size: calc(15px + 0.5vw);
+    padding: 10px;
+    text-align: left;
+}
+th{
+    text-decoration: 3px underline;
+}
+tr td:first-child, tr th:first-child{
+    width: 40%;
+}
+tr td:nth-child(2), tr th:nth-child(2){
+    text-align: right;
+}
+td span{
+    font-size: calc(12px + 0.5vw);
+    display: block;
+}
+section img{
+    margin: auto;
+    width: 60%;
+}

@@ -1,0 +1,37 @@
+section h2{
+    border-bottom: 5px solid rgb(173, 171, 171);
+}
+article h3{
+    border-top: 2px solid rgb(173, 171, 171);
+    text-align: right;
+}
+.no_line h3{
+    border-top: none;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+#nwachukwu_about{
+    list-style-type: disc;
+    /* margin-left: 20px; */
+}
+#bossman{
+    width: 20%;
+    height: 21%;
+}
+section img{
+    margin-left: 20px;
+    border: 2px ridge white;
+    width: 15%;
+    height: 10%;
+    padding: 5px;
+    float: right;
+}
+p span{
+    font-size: larger;
+    border-top: 2px solid rgb(173, 171, 171);
+}
+#last_staff p:first-child{
+    border-top: 2px solid rgb(173, 171, 171);
+}
