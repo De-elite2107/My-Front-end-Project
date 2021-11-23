@@ -1,6 +1,6 @@
 //Image Array
 $("#captcha").removeAttr("src")
-    var imgArray = ["../IMG/Contact_Us/cap1.jpg", "../IMG/Contact_Us/cap2.jpg", "../IMG/Contact_Us/cap3.jpg", "../IMG/Contact_Us/cap4.jpg", "../IMG/Contact_Us/cap5.jpg"]
+    var imgArray = ["./IMG/Contact_Us/cap1.jpg", "./IMG/Contact_Us/cap2.jpg", "./IMG/Contact_Us/cap3.jpg", "./IMG/Contact_Us/cap4.jpg", "./IMG/Contact_Us/cap5.jpg"]
 
 var size = imgArray.length
 
