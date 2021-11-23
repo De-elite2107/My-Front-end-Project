@@ -1,0 +1,31 @@
+aside .c{
+    background-image: url(../IMG/Who_we_are/BG-1.jpg);
+    background-size: cover;
+}
+section img{
+    width: 80%;
+    padding-top: 1%;
+}
+section .first_image{
+    border-top: 1px solid yellow;
+}
+.last_image{
+    width: 100%;
+}
+.last_image img:first-child{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 30%;
+}
+.last_image img:nth-child(2){
+    float: right;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 30%;
+}
+@media screen and (max-width: 768px) {
+    #who_we_are{
+        font-size: xx-small;
+    }
+}
