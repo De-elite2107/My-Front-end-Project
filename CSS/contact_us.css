@@ -33,6 +33,6 @@ tr td:nth-child(2){
 td span{
     color: red;
 }
-td input, td textarea{
+td input, td textarea, td img{
     width: 80℅;
 }
