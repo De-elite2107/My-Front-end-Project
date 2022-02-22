@@ -17,7 +17,7 @@ p span{
     font-size: calc(11px + 0.5vw);
     display: block;
 }
-table{
+table, form{
     width: 100%;
 }
 tr{
@@ -33,6 +33,6 @@ tr td:nth-child(2){
 td span{
     color: red;
 }
-td input{
-    width: 300px;
+td input, td textarea{
+    width: 80℅;
 }
